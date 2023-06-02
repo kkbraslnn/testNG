@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db9f907d-7265-4885-a0c9-1c0f04e68b49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapp/tests/topics/Day18_Assertions.java" afterDir="false" />
+    <list default="true" id="db9f907d-7265-4885-a0c9-1c0f04e68b49" name="Changes" comment="v1">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapp/tests/topics/Day18_FirstConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapp/tests/topics/Day18_FirstDriverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapp/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapp/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapp/tests/topics/Day18_Assertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapp/tests/topics/Day18_Assertions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,55 +43,16 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Day18_Assertions.softAssertion">
-    <configuration name="Day17_Annotations" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day18_FirstConfigTest.firstConfigTest">
+    <configuration name="ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myapp.utilities.ConfigReader" />
       <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapp.tests.topics.*" />
+          <option name="PATTERN" value="com.myapp.utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="com.myapp.tests.topics.Day17_Annotations" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day17_DependsOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myapp.tests.topics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="com.myapp.tests.topics.Day17_DependsOnMethods" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day17_DependsOnMethods.homePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myapp.tests.topics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="com.myapp.tests.topics.Day17_DependsOnMethods" />
-      <option name="METHOD_NAME" value="homePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,13 +92,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day18_FirstConfigTest.firstConfigTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myapp.tests.topics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myapp.tests.topics" />
+      <option name="MAIN_CLASS_NAME" value="com.myapp.tests.topics.Day18_FirstConfigTest" />
+      <option name="METHOD_NAME" value="firstConfigTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day18_FirstDriverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myapp.tests.topics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myapp.tests.topics" />
+      <option name="MAIN_CLASS_NAME" value="com.myapp.tests.topics.Day18_FirstDriverTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day18_Assertions.softAssertion" />
+        <item itemvalue="TestNG.Day18_FirstConfigTest.firstConfigTest" />
+        <item itemvalue="Application.ConfigReader" />
+        <item itemvalue="TestNG.Day18_FirstDriverTest" />
         <item itemvalue="TestNG.Day18_Assertions" />
-        <item itemvalue="TestNG.Day17_DependsOnMethods.homePage" />
-        <item itemvalue="TestNG.Day17_DependsOnMethods" />
-        <item itemvalue="TestNG.Day17_Annotations" />
+        <item itemvalue="TestNG.Day18_Assertions.softAssertion" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685652229982</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1">
+      <created>1685691024756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685691024756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
   </component>
 </project>
